@@ -239,6 +239,9 @@ body {
         transition: background .5s;
 
     }
+    .login input:hover {
+        background: rgba(255, 255, 255, 0.8);
+    }
 
     .form-item {
         left: 10%;
@@ -260,6 +263,11 @@ body {
         padding: 1.1rem;
         position: relative;
         left: 16%;
+        transition: 0.5s;
+    }
+
+    .login button:hover {
+        background: rgba(0, 0, 0, .8);
     }
 
     .login-footer {
