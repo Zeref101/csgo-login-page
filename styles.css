@@ -184,3 +184,87 @@ body {
 .login-form .checkbox .remember-me {
     margin-top: -1rem;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-family: 'Poppins', sans-serif;
+        height: 100vh;
+        background: linear-gradient(45deg, #222831, #393E46, #00ADB5, #EEEEEE);
+        background-size: 200% 200%;
+        animation-name: color;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-delay: 1s;
+        animation-direction: alternate;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* box-shadow: inset 10 0 0 1000px rgba(255, 255, 255, 1) */
+    }
+
+    html {
+        width: 100%;
+    }
+
+    .login {
+        position: relative;
+
+    }
+
+
+
+    .login {
+
+        position: relative;
+        background: none;
+        border-radius: 10px;
+        border: #222831 x;
+        background: rgba(255, 255, 255, 0.5);
+    }
+
+    .login::before {
+        background: none;
+    }
+
+    .login input[type="text"],
+    .login input[type="password"] {
+        border: none;
+        outline: none;
+        background: rgba(255, 255, 255, .3);
+        padding: 0.8rem;
+        border-radius: 100px;
+        width: 60%;
+        padding-left: calc(1rem*3.5);
+        transition: background .5s;
+
+    }
+
+    .form-item {
+        left: 10%;
+    }
+
+    .remember-me {
+        position: relative;
+        left: 10%;
+    }
+
+    .login-form a {
+        position: relative;
+        left: 12%;
+    }
+
+    .login button[type="submit"] {
+        width: 60%;
+        height: 30%;
+        padding: 1.1rem;
+        position: relative;
+        left: 16%;
+    }
+
+    .login-footer {
+        font-size: 13px;
+        position: relative;
+        right: 8%;
+    }
+}
