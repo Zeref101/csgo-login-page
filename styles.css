@@ -190,9 +190,8 @@ body {
         font-family: 'Poppins', sans-serif;
         height: 100vh;
         background: linear-gradient(45deg, #222831, #393E46, #00ADB5, #EEEEEE);
-        background-size: 200% 200%;
-        animation-name: color;
-        animation-duration: 5s;
+        background-size: 150% 300%;
+        animation-duration: 2s;
         animation-iteration-count: infinite;
         animation-timing-function: ease-in-out;
         animation-delay: 1s;
@@ -204,26 +203,30 @@ body {
     }
 
     html {
-        width: 100%;
+        width: 100vw;
     }
-
-    .login {
-        position: relative;
-
-    }
-
-
 
     .login {
 
         position: relative;
+        padding: 5%;
         background: none;
         border-radius: 10px;
-        border: #222831 x;
+        border: #222831;
         background: rgba(255, 255, 255, 0.5);
+        justify-content: center;
+        margin-left: -1.5rem;
     }
 
-    .login::before {
+    .login-icon img {
+        width: 10%;
+    }
+
+    .login-head h1 {
+        font-size: 1.3rem;
+    }
+
+    .login-head .login::before {
         background: none;
     }
 
@@ -234,27 +237,38 @@ body {
         background: rgba(255, 255, 255, .3);
         padding: 0.8rem;
         border-radius: 100px;
-        width: 60%;
+        width: 53%;
         padding-left: calc(1rem*3.5);
         transition: background .5s;
 
     }
+
     .login input:hover {
         background: rgba(255, 255, 255, 0.8);
     }
 
     .form-item {
-        left: 10%;
+        margin-left: 10%;
+    }
+
+
+    .form-item {
+        left: 5%;
     }
 
     .remember-me {
         position: relative;
-        left: 10%;
+        left: 15%;
     }
 
     .login-form a {
         position: relative;
-        left: 12%;
+        left: 8%;
+    }
+
+    .forgot-password {
+        position: relative;
+        left: 16% !important;
     }
 
     .login button[type="submit"] {
