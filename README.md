@@ -1,1 +1,1 @@
-Its my first responsive website using html, css.A login page only for pro csgo players, noobs aren't required. 
+I just unleashed my first responsive website using HTML and CSS. It's got a login page specifically for pro CS:GO players, so if you're a noob, go back to playing Candy Crush! Just kidding, we welcome all players...as long as you can handle the heat in the virtual battlefield.
